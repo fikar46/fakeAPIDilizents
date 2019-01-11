@@ -1,0 +1,113 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "fikar",
+      "password": "fikar123",
+      "email": "mzulfikarm@outlook.com"
+    },
+    {
+      "id": 2,
+      "username": "radikarosy",
+      "email": "radikarosy@gmail.com",
+      "password": "fikar123",
+      "phone": "082210996848"
+    },
+    {
+      "username": "udin",
+      "email": "udin@gmail.com",
+      "password": "udin123",
+      "phone": "0822222222",
+      "id": 3
+    },
+    {
+      "username": "udinsedunia",
+      "email": "fikar@gmail.com",
+      "password": "fikar123",
+      "phone": "0822109986854",
+      "id": 4
+    }
+  ],
+  "produk": [
+    {
+      "id": 1,
+      "nama_produk": "Belajar Super kilat",
+      "description": "Belajar kilat gila 2 bulan sebelum ujian",
+      "harga": 75000
+    },
+    {
+      "id": 2,
+      "nama_produk": "Belajar Normal",
+      "description": "Belajar normal 6 bulan sebelum ujian",
+      "harga": 150000
+    },
+    {
+      "id": 3,
+      "nama_produk": "Belajar nyantai",
+      "description": "Belajar santai 12 bulan sebelum ujian",
+      "harga": 300000
+    }
+  ],
+  "produk_child": [
+    {
+      "id": 1,
+      "nama_produk": "SBMPTN",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_sbmptn.jpg",
+      "link": "/sbmptn"
+    },
+    {
+      "id": 2,
+      "nama_produk": "Ujian Mandiri",
+      "img": "https://upload.wikimedia.org/wikipedia/id/thumb/9/95/Makara_UI.png/1200px-Makara_UI.png",
+      "link": "/um"
+    },
+    {
+      "id": 3,
+      "nama_produk": "Ujian Nasional",
+      "img": "https://studyingnerveous.files.wordpress.com/2013/04/logo-tut-wury.jpg",
+      "link": "/un"
+    },
+    {
+      "id": 4,
+      "nama_produk": "Ujian Kedinasan",
+      "img": "http://3.bp.blogspot.com/-cbqaeLiFucQ/UReKkkN4tRI/AAAAAAAACWQ/K4LRHUM33Wg/s1600/20110313063815!STAN.jpg",
+      "link": "/uk"
+    }
+  ],
+  "tryout": [
+    {
+      "nama_produk": "SBMPTN 1",
+      "tanggal": "1 Januari 2019",
+      "link": "/to1sbmptn",
+      "id": 1
+    },
+    {
+      "nama_produk": "SBMPTN 2",
+      "tanggal": "5 Januari 2019",
+      "link": "/to2sbmptn",
+      "id": 2
+    }
+  ],
+  "post": [
+    {
+      "username": "fikar",
+      "post": "sshalo world",
+      "date": "12/3/2018, 2:14:57 PM",
+      "id": 1,
+      "komentar": [
+        {
+          "id_komentar": 1,
+          "post_komentar": "hai",
+          "username": "udin",
+          "date": "12/3/2018, 2:14:57 PM"
+        }
+      ]
+    },
+    {
+      "username": "fikar",
+      "post": "hai",
+      "date": "12/4/2018, 11:48:15 AM",
+      "id": 2
+    }
+  ]
+}
